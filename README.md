@@ -15,21 +15,30 @@ You only need **one** provider to complete the exercises. If you don't want to s
 
 ## Getting Started
 
-1. **Install uv** (if you don't have it yet):
-  ```bash
-   curl -LsSf https://astral.sh/uv/install.sh | sh
-  ```
-2. **Initialize the project and install dependencies:**
-  ```bash
-   uv init
-   uv add litellm python-dotenv ipykernel
-  ```
-   This creates a `pyproject.toml`, a virtual environment, and installs the required packages.
-3. **Configure your API keys:**
-  ```bash
-   cp .env.example .env
-  ```
-   Edit `.env` and add the keys for the providers you want to use.
-4. **Open and run `init.ipynb`** — select the `.venv` Python kernel, then run the cells for your chosen provider to verify everything works.
-5. Once the test calls return a response, you're ready to start the exercises.
+1.  **Install uv** (if you don't have it yet):
+
+    ```bash
+    curl -LsSf https://astral.sh/uv/install.sh | sh
+    ```
+
+2.  **Initialize the project and install dependencies:**
+
+    ```bash
+    uv init
+    uv add litellm python-dotenv ipykernel
+    ```
+
+    This creates a `pyproject.toml`, a virtual environment, and installs the required packages.
+
+3.  **Configure your API keys:**
+
+    ```bash
+    cp .env.example .env
+    ```
+
+    Edit `.env` and add the keys for the providers you want to use.
+
+4.  **Open and run `init.ipynb`** — select the `.venv` Python kernel, then run the cells for your chosen provider to verify everything works.
+
+5.  Once the test calls return a response, you're ready to start the exercises.
 
